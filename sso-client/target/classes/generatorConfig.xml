@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+  <classPathEntry location="D:\workspace\mysql-connector-java-5.1.46.jar/" />
+  <context id="context1" >
+    <!--<plugin type="org.mybatis.generator.aicloud.codegen.mybatis3.plugin.CriteriaPackageRenamePlugin" >-->
+      <!--<property name="targetPackage" value="com.chinamobile.zj.server.criteria" />-->
+      <!--<property name="targetProject" value="src/main/java" />-->
+    <!--</plugin>-->
+
+    <commentGenerator >
+      <property name="suppressDate" value="true" />
+      <property name="suppressAllComments" value="true" />
+    </commentGenerator>
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://127.0.0.1:3306/test" userId="root" password="123456" />
+    <javaModelGenerator targetPackage="com.example.demo.entity" targetProject="src/main/java" />
+    <sqlMapGenerator targetPackage="mybatis" targetProject="src/main/resources" />
+    <javaClientGenerator targetPackage="com.example.demo.dao.mapper" targetProject="src/main/java" type="XMLMAPPER" />
+
+    <table tableName="vue_user" domainObjectName="User">
+      <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+    </table>
+
+  </context>
+</generatorConfiguration>

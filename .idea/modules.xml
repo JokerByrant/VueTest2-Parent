@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/VueTest2Parent.iml" filepath="$PROJECT_DIR$/VueTest2Parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-client/sso-client.iml" filepath="$PROJECT_DIR$/sso-client/sso-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vueTest-Body/vueTest-Body.iml" filepath="$PROJECT_DIR$/vueTest-Body/vueTest-Body.iml" />
+    </modules>
+  </component>
+</project>
